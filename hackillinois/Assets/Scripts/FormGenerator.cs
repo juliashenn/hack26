@@ -44,7 +44,7 @@ public class FormGenerator : MonoBehaviour
     /// <summary>Clears any existing form and builds a new one from data.</summary>
     public void GenerateForm(FormData data)
     {
-        ClearForm();
+        //ClearForm();
 
         RectTransform content = scrollRect.content;
 
