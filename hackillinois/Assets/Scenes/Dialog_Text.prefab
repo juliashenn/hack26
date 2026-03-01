@@ -1,0 +1,203 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &568871738314133516
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8504750772432721606}
+  - component: {fileID: 6417869686211201063}
+  - component: {fileID: 3212347025075395883}
+  - component: {fileID: 2556359982457416548}
+  - component: {fileID: 2926596167466275848}
+  m_Layer: 4
+  m_Name: Dialog_Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8504750772432721606
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568871738314133516}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: 0, y: 222.65001}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &6417869686211201063
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568871738314133516}
+  m_CullTransparentMesh: 0
+--- !u!114 &3212347025075395883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568871738314133516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 24
+    m_Right: 24
+    m_Top: 24
+    m_Bottom: 24
+  m_ChildAlignment: 1
+  m_Spacing: 12
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 1
+  m_ChildControlHeight: 1
+  m_ChildScaleWidth: 1
+  m_ChildScaleHeight: 1
+  m_ReverseArrangement: 0
+--- !u!114 &2556359982457416548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568871738314133516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalFit: 0
+  m_VerticalFit: 2
+--- !u!114 &2926596167466275848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568871738314133516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2716a63d1f68b124a8c5a3ba05fa5f94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FormGenerator
+  scrollRect: {fileID: 0}
+  sectionHeaderPrefab: {fileID: 4803470901720473276, guid: e956daf84614f0c438ff70bb824786bd, type: 3}
+  questionItemPrefab: {fileID: 7873790161316386880, guid: 93152615198fb064b8182802f4fe7bf4, type: 3}
+  sectionSpacing: 24
+  questionSpacing: 12
+  generateOnStart: 1
+  testFormData:
+    formTitle: 
+    sections:
+    - sectionHeader: FROM THE GROUND
+      questions:
+      - questionText: 'Bucket, GET  '
+        commentText: Excessive Wear or damage, cracks
+      - questionText: 'Bucket cylinder & linkage  '
+        commentText: Excessive wear, damage, leaks, lubricate
+      - questionText: 'Stick, cylinder  '
+        commentText: Wear, damage, leaks, lubricate
+      - questionText: 'Boom, cylinders  '
+        commentText: Wear, damage, leaks, lubricate
+      - questionText: 'Underneath of machine  '
+        commentText: Final drive leaks, swing drive leaks, damage
+      - questionText: 'Carbody  '
+        commentText: Cracks, damage
+      - questionText: 'Undercarriage  '
+        commentText: Wear, damage, tension
+      - questionText: 'Steps & handholds  '
+        commentText: Condition & cleanliness
+      - questionText: 'Batteries & hold downs  '
+        commentText: Cleanliness, loose bolts & nuts
+      - questionText: 'Windshield wipers & washers '
+        commentText: Wear, damage, fluid level
+      - questionText: 'Fire extinguisher  '
+        commentText: Charge, damage
+      - questionText: 'Engine coolant  '
+        commentText: Fluid level
+      - questionText: 'Primary/secondary fuel filters '
+        commentText: 'Leaks, drain water separator '
+      - questionText: 'Air filter  '
+        commentText: Restriction indicator
+      - questionText: 'Hydraulic oil tank  '
+        commentText: Fluid level, damage, leaks
+      - questionText: 'Hydraulic oil filter  '
+        commentText: Leaks
+      - questionText: 'Radiator  '
+        commentText: Fin blockage, leaks
+      - questionText: Hydraulic oil cooler
+        commentText: Fin blockage, leaks
+      - questionText: 'AC condenser '
+        commentText: Fin blockage, leaks
+      - questionText: Lights
+        commentText: Damage
+      - questionText: 'Mirrors  '
+        commentText: Damage, proper adjustment, cleanliness
+      - questionText: 'Engine oil filter  '
+        commentText: Leaks
+      - questionText: 'Hydraulic oil filters  '
+        commentText: Leaks
+      - questionText: Overall machine
+        commentText: Loose or missing nuts & bolts, loose guards, cleanliness
+    - sectionHeader: 'ENGINE COMPARTMENT OR PLATFORMS '
+      questions:
+      - questionText: 'Engine oil '
+        commentText: Fluid level
+      - questionText: 'Swing gear oil  '
+        commentText: Fluid level, leaks
+      - questionText: 'Fuel tank  '
+        commentText: Fuel level, damage, leaks
+      - questionText: 'Diesel exhaust fluid (DEF) tank (if equipped) '
+        commentText: Fluid level, check for debris buildup
+      - questionText: 'All hoses  '
+        commentText: Cracks, wear spots, leaks
+      - questionText: 'All belts  '
+        commentText: Tightness, wear, cracks
+      - questionText: 'Overall engine compartment  '
+        commentText: Trash or dirt buildup, leaks
+    - sectionHeader: 'INSIDE THE CAB '
+      questions:
+      - questionText: 'Seat  '
+        commentText: Adjustment, able to reach pedals
+      - questionText: 'Seat belt & mounting  '
+        commentText: 'Damage, wear, adjustment, installed date, age '
+      - questionText: 'Horn, travel alarm, lights  '
+        commentText: 'Make sure that the horn, the travel alarm (if equipped), and
+          all other warning devices are working properly. '
+      - questionText: 'Indicators  '
+        commentText: Proper function
+      - questionText: Monitor panel
+        commentText: Proper function
+      - questionText: Switches
+        commentText: Proper function
+      - questionText: Travel controls
+        commentText: Correct function
+      - questionText: 'Mirrors  '
+        commentText: Proper adjustment
+      - questionText: 'Heating system  '
+        commentText: Proper function
+      - questionText: 'ROPS '
+        commentText: Damage, loose mounting bolts
+      - questionText: 'Cooling system  '
+        commentText: Proper function
+      - questionText: 'Overall cab interior  '
+        commentText: Cleanliness
