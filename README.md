@@ -2,7 +2,7 @@
 
 By Julia Shen, Julia Stein, and Matthew Shang
 
-### HackIllinois 2026, Caterpillar's Best AI Inspection Track 3rd place
+### HackIllinois 2026, Caterpillar's Best AI Inspection Track Winner
 
 Heavy equipment inspections are critical for safety, compliance, and operational efficiency. However, daily inspections of machines such as excavators and tractors are often manual, repetitive, and prone to human error. Inspectors must reference checklists, document findings, and visually confirm components; all while navigating large, complex machinery.
 
